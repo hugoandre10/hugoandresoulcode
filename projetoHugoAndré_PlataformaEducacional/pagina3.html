@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+</head>
+
+<body>
+    <!-- Formulário de cadastro , contendo enunciados , informações que o cliente
+precisa preencher -->
+    <h1> CADASTRO </h1>
+    <form>
+        <fieldset>
+            <legend> <b> Não deixe de participar! </b> </legend>
+            <br>
+            <label for="nome">
+                <b> Nome: </b>
+                <input type="text" id="nome">
+            </label>
+            <br>
+            <br>
+            <label for="email">
+                <b> Email: </b>
+                <input type="email" id="email">
+            </label>
+            <br>
+            <br>
+
+            <label for="senha">
+                <b> Senha:</b>
+                <input type="password" id="senha">
+                <br>
+                <br>
+            </label>
+            <label for="telefone">
+                <b>Telefone:</b>
+                <input type="tel" id="telefone" placeholder="(00)00000-0000">
+            </label>
+            <br>
+            <br>
+            <label>
+                <b> Data de nascimento: </b>
+
+
+                <label for="data">
+                    <input type="date" id="data" value="dat" name="cadastro">
+
+
+                </label>
+                <br>
+                <b> Sexo: </b>
+                <br>
+                <label for="M">
+                    Masculino
+                    <input type="radio" id="M" value="M" name="cadastrosex">
+
+                </label>
+                <br>
+                <label for="F">
+                    Feminino
+                    <input type="radio" id="F" value="F" name="cadastrosex">
+
+                </label>
+                <br>
+                <br>
+                <label>
+
+                    <b> Endereço: </b>
+
+                    <br>
+                </label>
+                <label for="estado"></label>
+                <select name="estado" id="estado">
+                    <option> Selecione o Estado</option>
+                    <option value=" AC "> Acre </option>
+                    <option value=" AL "> Alagoas </option>
+                    <option value=" AP "> Amapá </option>
+                    <option value=" AM "> Amazonas </option>
+                    <option value=" BA "> Bahia </option>
+                    <option value=" CE "> Ceará </option>
+                    <option value="DF "> Distrito Federal </option>
+                    <option value="ES "> Espírito Santo </option>
+                    <option value="GO "> Goiás </option>
+                    <option value="MA"> Maranhão </option>
+                    <option value="MT "> Mato Grosso </option>
+                    <option value=" MS "> Mato Grosso do Sul </option>
+                    <option value="MG "> Minas Gerais </option>
+                    <option value=" PA "> Pará </option>
+                    <option value="PB "> Paraíba </option>
+                    <option value="PR "> Paraná </option>
+                    <option value=" PE "> Pernambuco </option>
+                    <option value="PI "> Piauí </option>
+                    <option value=" RJ"> Rio de Janeiro </option>
+                    <option value=" RN "> Rio Grande do Norte </option>
+                    <option value="RS "> Rio Grande do Sul </option>
+                    <option value="RO "> Rondônia </option>
+                    <option value=" RR"> Roraima </option>
+                    <option value=" SC"> Santa Catarina </option>
+                    <option value=" SP "> São Paulo </option>
+                    <option value="SE "> Sergipe </option>
+                    <option value="TO "> Tocantins </option>
+                </select>
+
+                <label for="cidade">
+                    <b> Cidade: </b>
+                    <input type="text" id="cidade">
+
+                </label>
+                <br>
+                <br>
+
+                <label> <b> Selecione seu curso desejado: </b> </label> <br>
+                <label for="educfinanceira"> Educação Financeira:
+
+                    <input type="checkbox" id="educfinanceira" value="educfinanc" name="opcoes">
+
+
+                </label>
+                <br>
+
+                <label for="cidadania"> Cidadania:
+                    <input type="checkbox" id="cidadania" value="cida" name="opcoes">
+                </label>
+                <br>
+
+                <label for="filosofia"> Filosofia:
+                    <input type="checkbox" id="filosofia" value="filos" name="opcoes">
+                </label>
+                <br>
+                <br>
+                <!-- Enviar todas as informações preenchidas pelo usuário-->
+                <input type="submit" value="Enviar Cadastro">
+                <input type="reset" value="Limpar">
+
+
+        </fieldset>
+
+    </form>
+
+    <br>
+    <br>
+    <!-- Espaço para usuário enviar suas dúvidas-->
+    <form>
+        <b> Dúvidas? </b> <br> <img src="images/duvidas.jpeg" alt="Dúvidas?" title="Dúvidas?"> <br>
+        Envie sua <mark> opinião! </mark> <br>
+        <textarea name="opinião" id="enviaropiniao" cols="20" rows="3" placeholder="Digite aqui">
+
+</textarea>
+        <input type="submit" id="enviaropiniao" class="opiniao" value="Enviar opinião">
+        <input type="reset" id="enviaropiniao" class="opiniao" value="Limpar">
+    </form>
+
+    <a href="pagina2.html"> <img src="images/voltar.jpeg" alt="voltar" title="Voltar"> <br> </a> <b> Voltar </b>
+</body>
+
+</html>
