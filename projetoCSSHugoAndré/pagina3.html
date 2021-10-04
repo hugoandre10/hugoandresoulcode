@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <link rel="stylesheet" type="text/css" href="estiloProjeto.css">
+
+
+</head>
+
+<body>
+    <!-- Cabeçalho da página  -->
+    <header class="header2">
+        <!-- Imagem que representa marca d'água da empresa -->
+        <img src="images/casalannister.png" alt="Símbolo Educação" title="Educação">
+        <!-- Div que constroi o Menu -->
+        <div class="menu">
+            <a href="pagina1.html"> Início </a>
+            <p></p>
+            <a href="pagina2.html"> Sobre</a>
+            <p></p>
+            <a href="pagina3.html"> Cadastro </a>
+            <p></p>
+
+
+        </div>
+
+    </header>
+    <!-- Caixa Mãe -->
+    <section id="container2">
+
+        <main class="main3">
+            <!-- Section suporta o cadastro -->
+            <section>
+                <h1> CADASTRO </h1>
+                <form id="form1">
+                    <fieldset>
+                        <legend> Não deixe de participar! </legend>
+                        <div class="grupoInput">
+
+
+                            <label for="nome">
+                                Nome:
+                                <input type="text" id="nome">
+                            </label>
+
+                            <label for="email">
+                                Email:
+                                <input type="email" id="email">
+                            </label>
+
+
+                            <label for="senha">
+                                Senha:
+                                <input type="password" id="senha">
+
+                            </label>
+                            <label for="telefone">
+                                Telefone:
+                                <input type="tel" id="telefone" placeholder="(00)00000-0000">
+                            </label>
+
+
+
+                            <label for="data">
+                                Data de nascimento:
+                                <input type="date" id="data" value="dat" name="cadastro">
+
+
+                            </label>
+
+                            <p> Sexo: </p>
+
+                            <label for="M">
+                                Masculino
+                                <input type="radio" id="M" value="M" name="cadastrosex">
+
+                            </label>
+
+                            <label for="F">
+                                Feminino
+                                <input type="radio" id="F" value="F" name="cadastrosex">
+
+                            </label>
+
+
+                            <label for="estado"> Endereço: </label>
+                            <select name="estado" id="estado">
+                                <option> Selecione o Estado</option>
+                                <option value=" AC "> Acre </option>
+                                <option value=" AL "> Alagoas </option>
+                                <option value=" AP "> Amapá </option>
+                                <option value=" AM "> Amazonas </option>
+                                <option value=" BA "> Bahia </option>
+                                <option value=" CE "> Ceará </option>
+                                <option value="DF "> Distrito Federal </option>
+                                <option value="ES "> Espírito Santo </option>
+                                <option value="GO "> Goiás </option>
+                                <option value="MA"> Maranhão </option>
+                                <option value="MT "> Mato Grosso </option>
+                                <option value=" MS "> Mato Grosso do Sul </option>
+                                <option value="MG "> Minas Gerais </option>
+                                <option value=" PA "> Pará </option>
+                                <option value="PB "> Paraíba </option>
+                                <option value="PR "> Paraná </option>
+                                <option value=" PE "> Pernambuco </option>
+                                <option value="PI "> Piauí </option>
+                                <option value=" RJ"> Rio de Janeiro </option>
+                                <option value=" RN "> Rio Grande do Norte </option>
+                                <option value="RS "> Rio Grande do Sul </option>
+                                <option value="RO "> Rondônia </option>
+                                <option value=" RR"> Roraima </option>
+                                <option value=" SC"> Santa Catarina </option>
+                                <option value=" SP "> São Paulo </option>
+                                <option value="SE "> Sergipe </option>
+                                <option value="TO "> Tocantins </option>
+                            </select>
+
+                            <label for="cidade">
+                                Cidade:
+                                <input type="text" id="cidade">
+
+                            </label>
+                        </div>
+                        <div class="grupoBotao">
+                            <!-- Enviar todas as informações preenchidas pelo usuário-->
+                            <input type="submit" value="Enviar" id="submit">
+                            <input type="reset" value="Limpar" id="reset">
+                        </div>
+
+                    </fieldset>
+
+                </form>
+
+
+                <!-- Espaço para usuário enviar suas dúvidas-->
+                <form id="form2">
+                    <p> Dúvidas?
+                        Envie sua opinião!</p>
+                    <textarea name="opinião" id="enviaropiniao" cols="20" rows="3" placeholder="Digite aqui">
+
+</textarea>
+                    <input type="submit" id="enviaropiniao" class="opiniao" value="Enviar opinião">
+                    <input type="reset" id="enviaropiniao" class="opiniao" value="Limpar">
+                </form>
+
+            </section>
+
+
+
+
+
+
+
+
+
+
+
+        </main>
+
+
+
+
+
+
+
+
+
+
+
+    </section>
+
+    <!-- Construção do footer -->
+    <footer class="footer2">
+
+        <section class="sectionfooter">
+            <h1> Essential Education </h1>
+            <p></p>
+            Todos os direitos reservados direitos reservados
+            <p></p> CEO : Hugo André
+
+
+        </section>
+
+        <section class="sectionfooter">
+            Fundação: 24/09/2021 <p></p>
+            Rua que não existe, 1010, Sala 1 <p></p>
+
+            Ibura - Recife-PE , 23670-000 <p></p>
+
+
+        </section>
+
+        <section class="sectionfooter">
+            <div class="siteseguro">
+                <img src="images/siteseguro2.png" alt="Site Seguro" title="Site Seguro">
+            </div>
+
+        </section>
+
+
+    </footer>
+
+
+
+
+
+
+
+</body>
+
+
+
+</html>
